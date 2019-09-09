@@ -58,7 +58,23 @@ else
 </script>
 <script src="js/pace.min.js"></script>
   <link href="css/dataurl.css" rel="stylesheet" />
+<script>
+var textAnimate = eval(Jscex.compile("async", function () {
+		    var together = new Date();
+		    together.setFullYear(2019,2,27); 			
+		    together.setHours(0);							
+		    together.setMinutes(0);				
+		    together.setSeconds(0);					
+		    together.setMilliseconds(0);			
 
+		    $("#code").show().typewriter();
+            $("#clock-box").fadeIn(500);
+            while (true) {
+                timeElapse(together);
+                $await(Jscex.Async.sleep(1000));
+            }
+        }));
+</script>
 </head>	
 <body onload="popup('<Phương à  :-*</p></br>'); on()" onunload="s()">
 <div id="bg"></div>
@@ -107,7 +123,12 @@ else
 <h1>Do you love me till tomorrow morning?</h1>
 			
 <h2> Luv u my little duck <3</br>
-		
+<div id="clock-box">
+                    <span class="STYLE1"></span><font color="#FF0000">Anh <3 Em</font>
+<span class="STYLE1"> Time of love...</span>
+                  <div id="clock"></div>
+              </div>
+                <canvas id="canvas" width="1100" height="680"></canvas>		
 </div>
 		
 <center>
@@ -123,7 +144,7 @@ else
 <div class="music" style="display: none;">
 <object width="1" height="1">  <param name="movie" value="https://www.facebook.com/acoustee" />  <param name="quality" value="high" />  <param name="wmode" value="transparent" />  <param name="allowscriptaccess" value="always" /> <param name="allowfullscreen" value="true"/> <param name="flashvars" value="autostart=true" />  <embed src="http://www.nhaccuatui.com/m/BHKOQZhbiU" flashvars="target=blank&autostart=true" allowscriptaccess="always" allowfullscreen="true" quality="high" wmode="transparent" type="application/x-shockwave-flash" width="1" height="1"></embed></object>
 </div>
-<iframe src="https://www.nhaccuatui.com/lh/background/BfFnWlKjUGAH" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<iframe src="https://www.nhaccuatui.com/mh/background/D5EQmwbi6wNL" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 <script type="text/javascript">
    $(document).ready(function(){
       $(document).bind("contextmenu",function(e){
